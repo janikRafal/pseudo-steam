@@ -1,0 +1,25 @@
+.privacy-container {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+  border-radius: 8px;
+  position: relative;
+}
+
+.language-selector {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.flag-icon {
+  width: 30px;
+  cursor: pointer;
+}
+
+.policy-content {
+  color: #acb2b8;
+  white-space: pre-line;
+  margin-top: 3rem;
+}

@@ -1,0 +1,19 @@
+.support-item {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+
+.support-item:hover {
+  background-color: rgba(102, 192, 244, 0.2);
+}
+
+.support-info {
+  color: #acb2b8;
+}
