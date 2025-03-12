@@ -1,8 +1,4 @@
-import React, { useState } from "react";
-import { Container } from "react-bootstrap";
-import { GB, PL } from "country-flag-icons/react/3x2";
-
-const english_description = `
+export const ENGLISH_DESCRIPTION = `
 Privacy Policy
 
 Valve respects the privacy of its online visitors and customers of its products and services and complies with applicable laws for the protection of your privacy, including, without limitation, the California Consumer Privacy Act ("CCPA"), the European Union General Data Protection Regulation ("GDPR") and the UK GDPR.
@@ -208,7 +204,7 @@ Categories, Sources, Purposes, and Recipients of the Data We Collect. Over the p
 
 Revision Date: February 14th, 2025`;
 
-const polish_description = `
+export const POLISH_DESCRIPTION = `
 POLITYKA PRYWATNOŚCI
 
 Valve szanuje prywatność osób odwiedzających jej serwisy internetowe i klientów korzystających z produktów i usług Valve oraz przestrzega obowiązujących przepisów dotyczących ochrony Twojej prywatności, w tym między innymi postanowień Ustawy o ochronie prywatności konsumentów w stanie Kalifornia (California Consumer Privacy Act, „CCPA”), europejskiego Ogólnego rozporządzenia o ochronie danych osobowych („RODO”) i brytyjskiego RODO.
@@ -414,53 +410,3 @@ Kategorie, źródła, cele i odbiorcy zbieranych danych. W okresie ostatnich 12 
 
 Data aktualizacji: 14 lutego 2025 r.
 `;
-
-function PrivacyPolicy() {
-  const [language, setLanguage] = useState<"en" | "pl">("en");
-
-  return (
-    <Container className="py-5">
-      <h1 className="text-center mb-4">Privacy Policy Agreement</h1>
-
-      <div
-        style={{
-          backgroundColor: "rgba(0, 0, 0, 0.3)",
-          padding: "2rem",
-          borderRadius: "8px",
-          position: "relative",
-        }}
-      >
-        <div
-          style={{
-            position: "absolute",
-            top: "1rem",
-            left: "1rem",
-            display: "flex",
-            gap: "1rem",
-          }}
-        >
-          <GB
-            style={{ width: "30px", cursor: "pointer" }}
-            onClick={() => setLanguage("en")}
-          />
-          <PL
-            style={{ width: "30px", cursor: "pointer" }}
-            onClick={() => setLanguage("pl")}
-          />
-        </div>
-
-        <div
-          style={{
-            color: "#acb2b8",
-            whiteSpace: "pre-line",
-            marginTop: "3rem",
-          }}
-        >
-          {language === "en" ? english_description : polish_description}
-        </div>
-      </div>
-    </Container>
-  );
-}
-
-export default PrivacyPolicy;

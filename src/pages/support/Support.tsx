@@ -1,27 +1,12 @@
 import React from "react";
 import { Container, Button } from "react-bootstrap";
 import { BsChevronRight } from "react-icons/bs";
+import './style.css';
 
 const SupportItem: React.FC<{ text: string }> = ({ text }) => (
   <div
-    style={{
-      backgroundColor: "rgba(255, 255, 255, 0.1)",
-      borderRadius: "4px",
-      padding: "15px",
-      marginBottom: "8px",
-      cursor: "pointer",
-      display: "flex",
-      justifyContent: "space-between",
-      alignItems: "center",
-      transition: "all 0.2s ease",
-    }}
+    className="support-item"
     onClick={() => (window.location.href = "/support")}
-    onMouseEnter={(e) => {
-      e.currentTarget.style.backgroundColor = "rgba(102, 192, 244, 0.2)";
-    }}
-    onMouseLeave={(e) => {
-      e.currentTarget.style.backgroundColor = "rgba(255, 255, 255, 0.1)";
-    }}
   >
     <span>{text}</span>
     <BsChevronRight color="#fff" />
@@ -34,7 +19,7 @@ const Support: React.FC = () => {
       <h1 className="text-center mb-4">Steam Support</h1>
       <h3 className="text-center mb-4">What do you need help with?</h3>
 
-      <div className="text-center mb-5" style={{ color: "#acb2b8" }}>
+      <div className="text-center mb-5 support-info">
         <p>
           Sign in to Steam account to review purchases, account status, and get
           personalized help.

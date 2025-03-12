@@ -1,0 +1,17 @@
+.feature-item {
+  cursor: pointer;
+}
+
+.feature-icon {
+  font-size: 48px;
+}
+
+.hover-effect {
+  transition: all 0.3s ease;
+}
+
+.hover-effect:hover {
+  transform: translateY(-5px) scale(1.02);
+  background-color: rgba(102, 192, 244, 0.1) !important;
+  box-shadow: 0 4px 15px rgba(102, 192, 244, 0.2);
+}

@@ -1,3 +1,14 @@
+.carousel-image {
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.carousel-caption {
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8));
+  border-radius: 0 0 8px 8px;
+}
+
 .custom-carousel .carousel-control-prev,
 .custom-carousel .carousel-control-next {
   background-color: rgba(0, 0, 0, 0.7);

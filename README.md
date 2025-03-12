@@ -1,46 +1,102 @@
-# Getting Started with Create React App
+## 1.Numer grupy projektowej
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 2. Zdefiniowane wymagania funkcjonalne i niefunkcjonalne,
 
-## Available Scripts
+### Wymagania Funkcjonalne
 
-In the project directory, you can run:
+1. Interfejs Użytkownika
+   - Pasek nawigacji z odnośnikami do Sklepu, O nas, Wsparcia i Polityki Prywatności
+   - Strona sklepu z karuzelą gier
+   - Strona O nas z funkcjami platformy
+   - Strona wsparcia z kategoriami pomocy
+   - Strona polityki prywatności z możliwością zmiany języka
 
-### `npm start`
+2. Funkcje Sklepu
+   - Wyświetlanie polecanych gier w karuzeli
+   - Pokazywanie tytułów i opisów gier
+   - Wyświetlanie podglądów gier
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+3. System Wsparcia
+   - Wyświetlanie sekcji popularnych produktów
+   - Lista popularnych kategorii wsparcia
+   - Opcje logowania
+   - Wyświetlanie tematów pomocy
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+4. Sekcja O nas
+   - Wyświetlanie funkcji platformy z ikonami
+   - Szczegółowe opisy dla każdej funkcji
+   - Przycisk instalacji
 
-### `npm test`
+5. Polityka Prywatności
+   - Obsługa wielu języków (angielski/polski)
+   - Możliwość przełączania języka za pomocą flag
+   - Wyświetlanie treści polityki
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Wymagania Niefunkcjonalne
 
-### `npm run build`
+1. Wydajność
+   - Czas ładowania strony poniżej 2 sekund
+   - Płynne przejścia między stronami
+   - Zoptymalizowane ładowanie obrazów
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Użyteczność
+   - Responsywny design dla wszystkich rozmiarów ekranu
+   - Intuicyjna nawigacja
+   - Spójny interfejs UI/UX na wszystkich stronach
+   - Dostępność dla użytkowników z niepełnosprawnościami
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Kompatybilność
+   - Wsparcie dla nowoczesnych przeglądarek (Chrome, Firefox, Safari, Edge)
+   - Interfejs przyjazny urządzeniom mobilnym
+   - Responsywny układ
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Łatwość Utrzymania
+   - Modularna struktura komponentów
+   - Spójne standardy kodowania
+   - Przejrzysta dokumentacja
+   - Bezpieczeństwo typów TypeScript
 
-### `npm run eject`
+6. Skalowalność
+   - Możliwość ponownego użycia komponentów
+   - Wydajne zarządzanie stanem
+   - Modularna architektura
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 3. Dwie wybrane zasady projektowania uniwersalnego, które będą realizowane w tworzonej aplikacji,
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<div style="background-color: #000000; color: #ffffff; padding: 15px; border-radius: 5px;">
+<h1>Użyteczność dla osób o różnej sprawności</h1>
+<h1>Zauważalna informacja</h1>
+</div>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### 4 Zaprojektowane widoki aplikacji,
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### 5. Opis wybranej technologii, która została wybrana do implementacji aplikacji - język programowania i środowisko.
 
-## Learn More
+Aplikacja została zaimplementowana przy użyciu następujących technologii:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Główne technologie:
+- **React** (v18+) - biblioteka JavaScript do budowania interfejsów użytkownika
+- **TypeScript** - typowany superset JavaScript zwiększający bezpieczeństwo kodu
+- **React Router** (v6) - biblioteka do obsługi routingu w aplikacji React
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Biblioteki UI i komponenty:
+- **React Bootstrap** - framework CSS dostarczający gotowe komponenty UI
+- **React Icons** - biblioteka ikon (BS*, Fa*)
+- **Country Flag Icons** - biblioteka flag państw
+
+#### Struktura projektu:
+- Organizacja komponentów w folderze `src/components`
+- Podział na strony w folderze `src/pages`
+- Wykorzystanie CSS Modules do stylowania komponentów
+- Typescript dla type safety i lepszej dokumentacji kodu
+
+#### Środowisko deweloperskie:
+- Node.js jako środowisko uruchomieniowe
+- npm jako menedżer pakietów
+- Create React App jako bundler i development server
+
+Projekt wykorzystuje nowoczesne podejście do tworzenia aplikacji webowych, z naciskiem na:
+- Komponentową architekturę
+- Type safety dzięki TypeScript
+- Modularność i reużywalność kodu
+- Responsywność i dostępność
