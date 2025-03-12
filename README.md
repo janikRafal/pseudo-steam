@@ -1,4 +1,7 @@
 ## 1.Numer grupy projektowej
+### Wojciech Lasota
+### Rafał Janik
+### Marek Sarnecki
 
 ## 2. Zdefiniowane wymagania funkcjonalne i niefunkcjonalne,
 
