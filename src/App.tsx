@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { Route, HashRouter as Router, Routes } from "react-router-dom";
 import NavigationBar from "./components/NavigationBar";
 import About from "./pages/about/About";
 import PrivacyPolicy from "./pages/privacyPolicy/PrivacyPolicy";

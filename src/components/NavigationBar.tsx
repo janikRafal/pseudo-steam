@@ -2,10 +2,10 @@ import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const NAVIGATION_ITEMS = [
-  { path: "/pseudo-steam", label: "Store" },
-  { path: "/pseudo-steam/about", label: "About" },
-  { path: "/pseudo-steam/support", label: "Support" },
-  { path: "/pseudo-steam/privacy-policy", label: "Privacy Policy" },
+  { path: "", label: "Store" },
+  { path: "/about", label: "About" },
+  { path: "/support", label: "Support" },
+  { path: "/privacy-policy", label: "Privacy Policy" },
 ];
 
 const NavigationBar = (): JSX.Element => {
