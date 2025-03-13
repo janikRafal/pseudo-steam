@@ -4,33 +4,33 @@ import "./style.css";
 
 const GAMES = [
   {
-    image: "/factorio.jpg",
+    image: "/pseudo-steam/factorio.jpg",
     title: "Factorio",
     description: "Automate production in this addictive factory building game",
   },
   {
-    image: "/kingdom-come.png",
+    image: "/pseudo-steam/kingdom-come.png",
     title: "Kingdom Come: Deliverance",
     description:
       "Experience medieval RPG in a historically accurate open world",
   },
   {
-    image: "/metin2.jpg",
+    image: "/pseudo-steam/metin2.jpg",
     title: "Metin2",
     description: "Classic MMORPG with martial arts and magic",
   },
   {
-    image: "/minecraft.avif",
+    image: "/pseudo-steam/minecraft.avif",
     title: "Minecraft",
     description: "Build, explore, and survive in a blocky world",
   },
   {
-    image: "/rimworld.jpg",
+    image: "/pseudo-steam/rimworld.jpg",
     title: "RimWorld",
     description: "Sci-fi colony sim driven by an intelligent AI storyteller",
   },
   {
-    image: "/tibia.webp",
+    image: "/pseudo-steam/tibia.webp",
     title: "Tibia",
     description: "One of the oldest MMORPGs with a dedicated community",
   },
