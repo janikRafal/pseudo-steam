@@ -2,7 +2,7 @@
   "name": "pseudo-steam",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://janikrafal.github.io/pseudo-steam/",
+  "homepage": "https://janikrafal.github.io",
   "dependencies": {
     "@testing-library/dom": "^9.3.3",
     "@testing-library/jest-dom": "^6.1.4",
