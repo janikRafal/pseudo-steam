@@ -159,7 +159,7 @@ export const POPULAR_GAMES = [
     features: ["Single-player", "Precision platforming", "Pixel art"],
   },
   {
-    image: "/hades.jpg",
+    image: "/pseudo-steam/hades.jpg",
     title: "Hades",
     description:
       "An award-winning rogue-like dungeon crawler where you battle out of hell. Enjoy fast-paced combat and an evolving story inspired by Greek mythology.",
