@@ -13,12 +13,12 @@ import Store from "./pages/store/Store";
 import Support from "./pages/support/Support";
 
 const ROUTES = [
-  { path: "/", element: <Store /> },
-  { path: "/store", element: <Store /> },
-  { path: "/support", element: <Support /> },
-  { path: "/about", element: <About /> },
-  { path: "/privacy-policy", element: <PrivacyPolicy /> },
-  { path: "*", element: <Navigate to="/" replace /> },
+  { path: "/pseudo-steam", element: <Store /> },
+  { path: "/pseudo-steam/store", element: <Store /> },
+  { path: "/pseudo-steam/support", element: <Support /> },
+  { path: "/pseudo-steam/about", element: <About /> },
+  { path: "/pseudo-steam/privacy-policy", element: <PrivacyPolicy /> },
+  { path: "*", element: <Navigate to="/pseudo-steam" replace /> },
 ];
 
 const App: React.FC = () => {
