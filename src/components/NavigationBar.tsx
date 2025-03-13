@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 const NAVIGATION_ITEMS = [
   { path: "", label: "Store" },
-  { path: "/about", label: "About" },
-  { path: "/support", label: "Support" },
-  { path: "/privacy-policy", label: "Privacy Policy" },
+  { path: "about", label: "About" },
+  { path: "support", label: "Support" },
+  { path: "privacy-policy", label: "Privacy Policy" },
 ];
 
 const NavigationBar = (): JSX.Element => {

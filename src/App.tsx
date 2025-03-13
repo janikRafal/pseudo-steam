@@ -13,12 +13,12 @@ import Store from "./pages/store/Store";
 import Support from "./pages/support/Support";
 
 const ROUTES = [
-  { path: "/", element: <Store /> },
-  { path: "/store", element: <Store /> },
-  { path: "/support", element: <Support /> },
-  { path: "/about", element: <About /> },
-  { path: "/privacy-policy", element: <PrivacyPolicy /> },
-  { path: "*", element: <Navigate to="/" replace /> },
+  { path: "", element: <Store /> },
+  { path: "store", element: <Store /> },
+  { path: "support", element: <Support /> },
+  { path: "about", element: <About /> },
+  { path: "privacy-policy", element: <PrivacyPolicy /> },
+  { path: "*", element: <Navigate to="" replace /> },
 ];
 
 const App: React.FC = () => {
