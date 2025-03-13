@@ -23,7 +23,7 @@ const ROUTES = [
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename="/pseudo-steam">
       <div className="app-container">
         <NavigationBar />
         <Routes>
