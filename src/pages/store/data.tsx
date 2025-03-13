@@ -1,6 +1,6 @@
 // export const GAMES = [
 //   {
-//     image: "/factorio.jpg",
+//     image: "/pseudo-steam/factorio.jpg",
 //     title: "Factorio",
 //     description:
 //       "Factorio is a game about building and maintaining factories. You will be mining resources, researching technologies, building infrastructure, automating production and fighting enemies. Use your creativity and problem-solving skills to create massive automated production lines in this highly addictive engineering simulation.",
@@ -18,7 +18,7 @@
 //     ],
 //   },
 //   {
-//     image: "/kingdom-come.png",
+//     image: "/pseudo-steam/kingdom-come.png",
 //     title: "Kingdom Come: Deliverance",
 //     description:
 //       "Kingdom Come: Deliverance is a story-driven open-world RPG that immerses you in an epic adventure in the Holy Roman Empire. Avenge your parents' death as you battle invading forces, go on game-changing quests, and make influential choices.",
@@ -35,7 +35,7 @@
 //     ],
 //   },
 //   {
-//     image: "/metin2.jpg",
+//     image: "/pseudo-steam/metin2.jpg",
 //     title: "Metin2",
 //     description:
 //       "Metin2 is a free-to-play fantasy MMORPG that has been running since 2004. Set in a medieval Asian world, players can choose between multiple character classes, each with unique martial arts and magical abilities. Fight against other players in PvP or team up to tackle challenging dungeons.",
@@ -48,7 +48,7 @@
 //     features: ["Multi-player", "PvP", "PvE", "Guilds"],
 //   },
 //   {
-//     image: "/minecraft.avif",
+//     image: "/pseudo-steam/minecraft.avif",
 //     title: "Minecraft",
 //     description:
 //       "Minecraft is the ultimate sandbox game where your imagination is the only limit. Create anything from simple homes to complex machinery. Explore vast randomly generated worlds, craft tools and items, and play in various modes including survival, creative, and multiplayer. Regular updates keep adding new content and possibilities.",
@@ -61,7 +61,7 @@
 //     features: ["Single-player", "Multi-player", "Cross-Platform Multiplayer"],
 //   },
 //   {
-//     image: "/rimworld.jpg",
+//     image: "/pseudo-steam/rimworld.jpg",
 //     title: "RimWorld",
 //     description:
 //       "RimWorld is a sci-fi colony simulation driven by an intelligent AI storyteller. Generate a random world and manage colonists with unique backgrounds, personalities, and skills. Face numerous challenges from pirates, hostile tribes, wild animals, and the harsh environment while building a thriving colony.",
@@ -74,7 +74,7 @@
 //     features: ["Single-player", "Moddable", "Steam Workshop"],
 //   },
 //   {
-//     image: "/tibia.webp",
+//     image: "/pseudo-steam/tibia.webp",
 //     title: "Tibia",
 //     description:
 //       "One of the longest-running MMORPGs, Tibia offers a unique old-school gaming experience since 1997. With its distinctive 2D graphics, deep character progression system, and challenging gameplay, it maintains a dedicated community. Explore a vast world, hunt monsters, and develop your character with unlimited level progression.",
@@ -89,7 +89,7 @@
 // ];
 export const POPULAR_GAMES = [
   {
-    image: "/factorio.jpg",
+    image: "/pseudo-steam/factorio.jpg",
     title: "Factorio",
     description:
       "Factorio is a game about building and maintaining factories. Mine resources, research technologies, build infrastructure, automate production and fend off enemies.",
@@ -107,7 +107,7 @@ export const POPULAR_GAMES = [
     ],
   },
   {
-    image: "/kingdom-come.png",
+    image: "/pseudo-steam/kingdom-come.png",
     title: "Kingdom Come: Deliverance",
     description:
       "A story-driven open-world RPG set in the Holy Roman Empire. Experience historical battles, challenging quests, and deep narrative choices.",
@@ -120,7 +120,7 @@ export const POPULAR_GAMES = [
     features: ["Single-player", "Controller support", "Steam Achievements"],
   },
   {
-    image: "/minecraft.avif",
+    image: "/pseudo-steam/minecraft.avif",
     title: "Minecraft",
     description:
       "The ultimate sandbox game where creativity meets survival. Build, explore, and conquer vast, randomly generated worlds with friends or solo.",
@@ -133,7 +133,7 @@ export const POPULAR_GAMES = [
     features: ["Single-player", "Multi-player", "Cross-Platform"],
   },
   {
-    image: "/rimworld.jpg",
+    image: "/pseudo-steam/rimworld.jpg",
     title: "RimWorld",
     description:
       "A sci-fi colony simulation driven by an AI storyteller. Manage colonists with unique traits and face challenges in a procedurally generated world.",
@@ -146,7 +146,7 @@ export const POPULAR_GAMES = [
     features: ["Single-player", "Moddable", "Steam Workshop"],
   },
   {
-    image: "/celeste.jpg",
+    image: "/pseudo-steam/celeste.jpg",
     title: "Celeste",
     description:
       "Celeste is a platformer about overcoming challenges on and off the mountain. Master tricky jumps and explore a touching story of self-discovery.",
@@ -256,7 +256,7 @@ export const UPCOMING_GAMES = [
 
 export const FREE_GAMES = [
   {
-    image: "/metin2.jpg",
+    image: "/pseudo-steam/metin2.jpg",
     title: "Metin2",
     description:
       "A free-to-play fantasy MMORPG set in a mystical world. Battle epic foes, explore vast lands and join forces with players worldwide.",
@@ -269,7 +269,7 @@ export const FREE_GAMES = [
     features: ["Multi-player", "PvP", "PvE", "Guilds"],
   },
   {
-    image: "/tibia.webp",
+    image: "/pseudo-steam/tibia.webp",
     title: "Tibia",
     description:
       "Experience a classic MMORPG with deep character progression and challenging gameplay in a long-running title with a dedicated community.",
@@ -282,7 +282,7 @@ export const FREE_GAMES = [
     features: ["Multi-player", "PvE", "PvP", "Guilds"],
   },
   {
-    image: "/warframe.jpg",
+    image: "/pseudo-steam/warframe.jpg",
     title: "Warframe",
     description:
       "A cooperative free-to-play third-person shooter set in an evolving sci-fi world. Master your Warframe and join fast-paced missions.",
@@ -295,7 +295,7 @@ export const FREE_GAMES = [
     features: ["Co-op", "Fast-paced", "Customization"],
   },
   {
-    image: "/fortnite.jpg",
+    image: "/pseudo-steam/fortnite.jpg",
     title: "Fortnite",
     description:
       "A battle royale game where players fight to be the last one standing. Enjoy regular updates, events, and a vibrant community.",
@@ -308,7 +308,7 @@ export const FREE_GAMES = [
     features: ["Multiplayer", "Regular updates", "Cross-platform"],
   },
   {
-    image: "/genshin-impact.jpg",
+    image: "/pseudo-steam/genshin-impact.jpg",
     title: "Genshin Impact",
     description:
       "Explore a vast open world filled with elemental magic in this free-to-play action RPG. Uncover secrets and enjoy dynamic combat.",
@@ -321,7 +321,7 @@ export const FREE_GAMES = [
     features: ["Open world", "Action combat", "Gacha elements"],
   },
   {
-    image: "/apex-legends.jpg",
+    image: "/pseudo-steam/apex-legends.jpg",
     title: "Apex Legends",
     description:
       "A squad-based battle royale that mixes hero shooter mechanics with fast-paced, tactical combat. Jump into intense multiplayer battles.",
