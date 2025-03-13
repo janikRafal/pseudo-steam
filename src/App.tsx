@@ -1,9 +1,9 @@
 import React from "react";
 import {
-  Navigate,
   Route,
-  HashRouter as Router,
+  BrowserRouter as Router,
   Routes,
+  Navigate,
 } from "react-router-dom";
 import NavigationBar from "./components/NavigationBar";
 import About from "./pages/about/About";
