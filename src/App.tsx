@@ -1,5 +1,10 @@
 import React from "react";
-import { Route, HashRouter as Router, Routes } from "react-router-dom";
+import {
+  Navigate,
+  Route,
+  HashRouter as Router,
+  Routes,
+} from "react-router-dom";
 import NavigationBar from "./components/NavigationBar";
 import About from "./pages/about/About";
 import PrivacyPolicy from "./pages/privacyPolicy/PrivacyPolicy";
@@ -13,6 +18,7 @@ const ROUTES = [
   { path: "/support", element: <Support /> },
   { path: "/about", element: <About /> },
   { path: "/privacy-policy", element: <PrivacyPolicy /> },
+  { path: "*", element: <Navigate to="/" replace /> },
 ];
 
 const App: React.FC = () => {
