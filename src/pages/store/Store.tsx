@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
   Container,
   Row,
@@ -14,6 +14,13 @@ import { FREE_GAMES, POPULAR_GAMES, UPCOMING_GAMES } from "./data";
 const Store = (): JSX.Element => {
   const [activePopover, setActivePopover] = useState<number | null>(null);
   const [target, setTarget] = useState<HTMLElement | null>(null);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   const handleMouseEnter = (index: number, element: HTMLElement) => {
     setActivePopover(index);
@@ -22,6 +29,14 @@ const Store = (): JSX.Element => {
 
   const handleMouseLeave = () => {
     setActivePopover(null);
+  };
+
+  const getPopoverPlacement = (index: number) => {
+    const isSmallScreen = windowWidth < 768; // md breakpoint
+    if (isSmallScreen) return "bottom";
+
+    const isLastInRow = (index + 1) % 3 === 0;
+    return isLastInRow ? "left" : "right";
   };
 
   // Funkcja renderująca grid z grami na podstawie przekazanej tablicy
@@ -45,7 +60,7 @@ const Store = (): JSX.Element => {
           <Overlay
             show={activePopover === index}
             target={target}
-            placement="right"
+            placement={getPopoverPlacement(index)}
           >
             <Popover id={`popover-${index}`} className="game-popover">
               <Popover.Body>
