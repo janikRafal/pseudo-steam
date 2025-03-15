@@ -1,7 +1,7 @@
 import React from "react";
 import {
   Route,
-  HashRouter as Router,
+  BrowserRouter as Router,
   Routes,
   Navigate,
 } from "react-router-dom";
@@ -23,7 +23,7 @@ const ROUTES = [
 
 const App: React.FC = () => {
   return (
-    <Router basename="/pseudo-steam">
+    <Router>
       <div className="app-container">
         <NavigationBar />
         <Routes>
