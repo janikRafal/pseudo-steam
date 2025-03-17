@@ -175,7 +175,7 @@ export const POPULAR_GAMES = [
 
 export const UPCOMING_GAMES = [
   {
-    image: "/starbound-odyssey.jpg",
+    image: "/pseudo-steam/starbound-odyssey.jpg",
     title: "Starbound Odyssey",
     description:
       "Embark on a thrilling space adventure, exploring alien worlds and uncovering cosmic secrets in this epic sci-fi RPG.",
@@ -188,7 +188,7 @@ export const UPCOMING_GAMES = [
     features: ["Open world", "Multiplayer", "Dynamic events"],
   },
   {
-    image: "/mystic-realms.jpg",
+    image: "/pseudo-steam/mystic-realms.jpg",
     title: "Mystic Realms",
     description:
       "Step into a magical world full of enchantment and mystery. Master spells and battle mythical creatures in an immersive fantasy adventure.",
@@ -201,7 +201,7 @@ export const UPCOMING_GAMES = [
     features: ["Single-player", "Rich storytelling", "Open world"],
   },
   {
-    image: "/racing-legends-2.jpg",
+    image: "/pseudo-steam/racing-legends-2.jpg",
     title: "Racing Legends 2",
     description:
       "Take to the streets in high-octane races, customize your ride and compete in dynamic urban environments to become a racing legend.",
@@ -214,7 +214,7 @@ export const UPCOMING_GAMES = [
     features: ["Multiplayer", "Customization", "Realistic physics"],
   },
   {
-    image: "/dreamscape.jpg",
+    image: "/pseudo-steam/dreamscape.jpg",
     title: "Dreamscape",
     description:
       "Enter a surreal world where dreams and reality collide. Solve innovative puzzles and explore visually stunning landscapes.",
@@ -227,7 +227,7 @@ export const UPCOMING_GAMES = [
     features: ["Single-player", "Artistic design", "Innovative puzzles"],
   },
   {
-    image: "/battlefront-chronicles.jpg",
+    image: "/pseudo-steam/battlefront-chronicles.jpg",
     title: "Battlefront Chronicles",
     description:
       "Command armies and rewrite history in epic battles across sprawling battlefields. Engage in deep strategic warfare with friends or solo.",
@@ -240,7 +240,7 @@ export const UPCOMING_GAMES = [
     features: ["Multiplayer", "Deep strategy", "Historical settings"],
   },
   {
-    image: "/oceanic-quest.jpg",
+    image: "/pseudo-steam/oceanic-quest.jpg",
     title: "Oceanic Quest",
     description:
       "Dive into the mysteries of the deep sea, uncover sunken treasures, and battle mythical sea monsters in this action-packed adventure.",
